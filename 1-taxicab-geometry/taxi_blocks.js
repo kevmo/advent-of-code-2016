@@ -28,7 +28,7 @@ let longitude = 0;
 
 // @current = N, S, E, or W
 // @turnDir
-function followDirections(step) {
+followDirections = (step) => {
     var turnDir = step[0];
     var blocks = parseInt(step[1]);
 
